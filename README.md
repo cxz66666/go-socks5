@@ -1,12 +1,12 @@
 # go-socks5 
 
-[![GoDoc](https://godoc.org/github.com/things-go/go-socks5?status.svg)](https://godoc.org/github.com/things-go/go-socks5)
-[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/things-go/go-socks5?tab=doc)
-![Action Status](https://github.com/things-go/go-socks5/workflows/Go/badge.svg)
+[![GoDoc](https://godoc.org/github.com/cxz66666/go-socks5?status.svg)](https://godoc.org/github.com/cxz66666/go-socks5)
+[![Go.Dev reference](https://img.shields.io/badge/go.dev-reference-blue?logo=go&logoColor=white)](https://pkg.go.dev/github.com/cxz66666/go-socks5?tab=doc)
+![Action Status](https://github.com/cxz66666/go-socks5/workflows/Go/badge.svg)
 [![codecov](https://codecov.io/gh/things-go/go-socks5/branch/master/graph/badge.svg)](https://codecov.io/gh/things-go/go-socks5)
-[![Go Report Card](https://goreportcard.com/badge/github.com/things-go/go-socks5)](https://goreportcard.com/report/github.com/things-go/go-socks5)
-[![License](https://img.shields.io/github/license/things-go/go-socks5)](https://github.com/things-go/go-socks5/raw/master/LICENSE)
-[![Tag](https://img.shields.io/github/v/tag/things-go/go-socks5)](https://github.com/things-go/go-socks5/tags)
+[![Go Report Card](https://goreportcard.com/badge/github.com/cxz66666/go-socks5)](https://goreportcard.com/report/github.com/cxz66666/go-socks5)
+[![License](https://img.shields.io/github/license/things-go/go-socks5)](https://github.com/cxz66666/go-socks5/raw/master/LICENSE)
+[![Tag](https://img.shields.io/github/v/tag/things-go/go-socks5)](https://github.com/cxz66666/go-socks5/tags)
 
 Provides the `socks5` package that implements a [SOCKS5](http://en.wikipedia.org/wiki/SOCKS).
 SOCKS (Secure Sockets) is used to route traffic between a client and server through
@@ -38,18 +38,18 @@ The package still needs the following:
 
 Use go get.
 ```bash
-    go get github.com/things-go/go-socks5
+    go get github.com/cxz66666/go-socks5
 ```
 
 Then import the socks5 server package into your own code.
 
 ```bash
-    import "github.com/things-go/go-socks5"
+    import "github.com/cxz66666/go-socks5"
 ```
 
 ### Example
 
-Below is a simple example of usage, more see [example](https://github.com/things-go/go-socks5/tree/master/_example)
+Below is a simple example of usage, more see [example](https://github.com/cxz66666/go-socks5/tree/master/_example)
 
 [embedmd]:# (_example/main.go go)
 ```go
@@ -59,7 +59,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/things-go/go-socks5"
+	"github.com/cxz66666/go-socks5"
 )
 
 func main() {

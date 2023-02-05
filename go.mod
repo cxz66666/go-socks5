@@ -1,4 +1,4 @@
-module github.com/things-go/go-socks5
+module github.com/cxz66666/go-socks5
 
 go 1.15
 
